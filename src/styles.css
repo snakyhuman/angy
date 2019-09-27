@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* Styles for tab labels */
+
+.mat-tab-label {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* Styles for the active tab label */
+
+.mat-tab-label.mat-tab-label-active {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 25px;
+}
